@@ -5,7 +5,7 @@ flatiron = {instructors: 50, students: 1000, grads: 500}
 
 def key_for_min_value(flatiron)
   flatiron.collect do |k, v|
-  puts k if v > flatiron.values_at
+  puts k if v > flatiron
   
   end
 end
