@@ -7,5 +7,5 @@ def key_for_min_value(flatiron)
   puts k if v > flatiron.values.min
   
   end
-key_for_min_value
 end
+key_for_min_value
